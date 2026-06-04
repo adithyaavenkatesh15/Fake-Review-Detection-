@@ -1,0 +1,27 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.13.2
+- pip<=25.2
+- pip:
+  - mlflow==3.11.1
+  - aiohttp==3.13.3
+  - cloudpickle==3.1.2
+  - datasets==4.8.4
+  - defusedxml==0.7.1
+  - numpy==2.2.6
+  - opentelemetry-exporter-gcp-logging==1.11.0a0
+  - opentelemetry-exporter-gcp-monitoring==1.11.0a0
+  - opentelemetry-exporter-gcp-trace==1.11.0
+  - opentelemetry-exporter-otlp-proto-http==1.38.0
+  - pandas==2.3.3
+  - psutil==6.1.1
+  - pyarrow==23.0.0
+  - pydot==4.0.1
+  - rich==14.3.3
+  - scikit-learn==1.8.0
+  - scipy==1.17.0
+  - sentence-transformers==5.4.0
+  - torchvision==0.25.0
+  - zstandard==0.25.0
+name: mlflow-env

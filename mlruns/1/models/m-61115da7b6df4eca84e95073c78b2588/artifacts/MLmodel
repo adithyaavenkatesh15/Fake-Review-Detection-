@@ -1,0 +1,23 @@
+artifact_path: file:E:/Fake-Review-Detector-main (2)/Fake-Review-Detector-main/Fake-Review-Detector-main/mlruns/1/models/m-61115da7b6df4eca84e95073c78b2588/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-61115da7b6df4eca84e95073c78b2588
+model_size_bytes: 91801060
+model_uuid: m-61115da7b6df4eca84e95073c78b2588
+prompts: null
+run_id: 06f5424a996845cebe8721a3e79d65e3
+utc_time_created: '2026-04-10 14:47:40.406618'
